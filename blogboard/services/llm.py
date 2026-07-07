@@ -44,12 +44,12 @@ class LLMAgentService:
             api_key=self.api_key
         )
         
-    def get_news_agent(self, system_prompt: Optional[str] = None):
+    def get_news_agent(self, system_: Optional[str] = None):
         """
         Constructs a specialized News Research Agent equipped with our web-search tools.
         
         Args:
-            system_prompt (Optional[str]): Context or behavioral instructions injected into the StateGraph.
+            system_ (Optional[str]): Context or behavioral instructions injected into the StateGraph.
             
         Returns:
             CompiledGraph: A runnable LangGraph ReAct agent pre-equipped with Tavily and Guardian search tools.
@@ -64,7 +64,7 @@ class LLMAgentService:
         agent = create_react_agent(
             model=self.llm,
             tools=news_tools,
-            state_modifier=system_prompt
+            prompt=system_
         )
         return agent
         
@@ -82,6 +82,6 @@ class LLMAgentService:
         agent = create_react_agent(
             model=self.llm,
             tools=tools,
-            state_modifier=system_prompt
+            prompt=system_prompt
         )
         return agent
