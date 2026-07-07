@@ -1,0 +1,72 @@
+[
+  {
+    "id": "blogs/ml/explainable-ai-transparency.md",
+    "category": "ml",
+    "topic": "Explainable AI: Unlocking Transparency in Machine Learning Models",
+    "subtopics": "Model Interpretability Techniques, Feature Attribution Methods, Model Explainability Metrics, Real-World Applications of XAI",
+    "title": "Explainable AI Unlocked",
+    "description": "Discover how Explainable AI boosts transparency in Machine Learning models",
+    "date": "2026-07-07",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "4 min",
+    "file": "blogs/ml/explainable-ai-transparency.md"
+  },
+  {
+    "id": "blogs/ml/adversarial-robustness-in-deep-learning.md",
+    "category": "ml",
+    "topic": "Adversarial Robustness in Deep Learning",
+    "subtopics": "Adversarial Attack Methods, Defense Mechanisms, Robustness Metrics and Evaluation, Applications of Adversarial Training",
+    "title": "Adversarial Robustness",
+    "description": "Learn about adversarial robustness in deep learning, including attack methods, defense mechanisms, and applications.",
+    "date": "2026-07-07",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "3 min",
+    "file": "blogs/ml/adversarial-robustness-in-deep-learning.md"
+  },
+  {
+    "id": "blogs/ml/transfer-learning-for-low-resource-domains.md",
+    "category": "ml",
+    "topic": "Transfer Learning for Low-Resource Domains",
+    "subtopics": "Domain Adaptation Techniques, Few-Shot Learning Methods, Meta-Learning for Transferability, Applications of Transfer Learning in NLP and Computer Vision",
+    "title": "Transfer Learning",
+    "description": "Unlock the power of transfer learning for low-resource domains in NLP and Computer Vision",
+    "date": "2026-07-07",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "4 min",
+    "file": "blogs/ml/transfer-learning-for-low-resource-domains.md"
+  },
+  {
+    "id": "blogs/ml/graph-neural-networks-tutorial.md",
+    "category": "ml",
+    "topic": "Graph Neural Networks",
+    "subtopics": "Graph Convolutional Networks, Graph Attention Networks, Graph Autoencoders, Applications of GNNs in Recommendation Systems and Traffic Forecasting",
+    "title": "Graph Neural Networks",
+    "description": "Learn about Graph Neural Networks, their architectures & applications in Recommendation Systems & Traffic Forecasting",
+    "date": "2026-07-07",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "4 min",
+    "file": "blogs/ml/graph-neural-networks-tutorial.md"
+  },
+  {
+    "id": "blogs/ml/multimodal-learning-tutorial.md",
+    "category": "ml",
+    "topic": "Multimodal Learning",
+    "subtopics": "Multimodal Fusion Techniques, Cross-Modal Transfer Learning, Multimodal Dataset Creation and Preprocessing, Applications of Multimodal Learning in Human-Computer Interaction",
+    "title": "Multimodal Learning",
+    "description": "Discover the power of multimodal learning, a subfield of machine learning that integrates multiple data types for robust predictions.",
+    "date": "2026-07-07",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "3 min",
+    "file": "blogs/ml/multimodal-learning-tutorial.md"
+  }
+]
