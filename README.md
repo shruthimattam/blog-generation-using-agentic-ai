@@ -12,12 +12,8 @@
 
 </div>
 
-<br>
 
-<div align="center">
-  <img src="assets/dashboard-pipeline.png" alt="BlogBoard dashboard showing the multi-agent pipeline in progress" width="850">
-  <p><em>The Streamlit dashboard tracking a live run — TopicAgent, WriterAgent, and ValidatorAgent all completed.</em></p>
-</div>
+
 
 ---
 
