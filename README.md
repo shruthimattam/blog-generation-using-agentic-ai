@@ -23,7 +23,7 @@
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
+- [About The Project](#about-the-project)
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
@@ -33,17 +33,19 @@
 
 ---
 
-## About the Project
+## About The Project
 
-BlogBoard is an autonomous, multi-agent blogging pipeline. A `TopicAgent` selects a domain and topic, a `WriterAgent` drafts a full article, and a `ValidatorAgent` reviews and approves the draft — end to end, with no manual writing.
+BlogBoard is an end-to-end, autonomous blogging pipeline. It independently picks a topic, writes a full technical article, validates the draft for quality, and saves it — with zero manual writing.
+
+Powered by **LangGraph** for stateful multi-agent orchestration and **Groq** for blazing-fast LLM inference, it ensures high-quality, well-structured articles are generated hands-free. A **Streamlit dashboard** is included to trigger runs and monitor each agent's progress live.
 
 **Core capabilities:**
 
 - Fully autonomous content pipeline — topic selection, writing, and validation handled by dedicated agents
-- Fast LLM inference via Groq
-- Stateful multi-agent orchestration with LangGraph
-- Runs entirely offline — local filesystem storage, no cloud account required
-- Streamlit dashboard for triggering runs and browsing generated posts
+- Blazing-fast LLM inference via Groq
+- Stateful, multi-agent workflow orchestration with LangGraph
+- Runs entirely offline — local filesystem storage, zero cloud setup required
+- Live-updating Streamlit dashboard for manual triggers and run monitoring
 
 <br>
 
@@ -138,8 +140,9 @@ BlogBoard uses **Groq** for LLM inference.
 1. Visit the [Groq Console](https://console.groq.com/) and create an account to obtain your API key.
 2. Create a `.env` file in the project root.
 3. Add your key:
+
 ```dotenv
-   LLM__API_KEY=your_api_key_here
+LLM__API_KEY=your_api_key_here
 ```
 
 Keep your API key confidential — never commit it to version control.
@@ -154,4 +157,4 @@ Original multi-agent architecture and prompt design by [KalyanM45](https://githu
 
 ## License
 
-Licensed under the
+Licensed under the [MIT License](https://opensource.org/licenses/MIT).
